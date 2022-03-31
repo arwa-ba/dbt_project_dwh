@@ -1,0 +1,21 @@
+version: 2
+
+
+sources:
+  - name: mostaed
+    description: store all report details.
+    database: mostaed
+    schema: dbo
+  
+    tables: 
+     - name: Event
+     - name: Eventanswers
+     - name: EventType
+     - name: formcontrols
+     - name: Locations
+     - name: LocationType
+     - name: answergroup
+     - name: answergroupvalues
+     - name: SeverityLevel
+
+
